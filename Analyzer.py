@@ -7,7 +7,7 @@ from sklearn.externals import joblib
 
 #TeamId 100 = Blue 200 = Purple
 
-API_KEY = 'ffde7e9f-8751-456a-9c37-9757a169ceb8'
+#API_KEY = 
 def wait(riotwatcher):
 	while(not riotwatcher.can_make_request()):
 		time.sleep(.5)
